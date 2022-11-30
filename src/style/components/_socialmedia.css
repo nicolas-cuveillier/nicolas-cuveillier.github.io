@@ -1,0 +1,34 @@
+.social-network{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-network-logo{
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+  }
+  
+  #social-network-facebook{
+    background-image: url(../image/insta.png);
+    background-size:cover;
+    
+  }
+  
+  #social-network-linkedin{
+    background-image: url(../image/facebook.png);
+    background-size:cover;
+  }
+
+  #social-network-phone{
+    background-image: url(../image/facebook.png);
+    background-size:cover;
+  }
+  
+  #social-network-mail{
+    background-image: url(../image/facebook.png);
+    background-size:cover;
+  }
+  
+  

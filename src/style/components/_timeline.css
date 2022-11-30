@@ -1,0 +1,162 @@
+body {
+    background-color: #000;
+
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+.ag-format-container {
+    width: 1160px;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.ag-timeline-block {
+    padding: 20px 0;
+}
+.ag-timeline_title-box {
+    padding: 0 0 10px;
+
+    text-align: center;
+}
+.ag-timeline_tagline {
+    font-size: 40px;
+    color: rgb(84, 89, 95);
+}
+.ag-timeline_title {
+    font-size: 70px;
+}
+
+.ag-timeline_item_right {
+    margin: 0 0 20px;
+    height: 150px;
+    position: relative;
+    display: flex;
+}
+
+.ag-timeline_item_left {
+    margin: 0 0 20px 47.5%;
+    height: 150px;
+    position: relative;
+    display: flex;
+}
+.ag-timeline_item:nth-child(2n) {
+    text-align: right;
+}
+
+.ag-timeline {
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+
+    position: relative;
+}
+.ag-timeline_line {
+    width: 2px;
+    background-color: #393935;
+
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    bottom: 10%;
+
+    overflow: hidden;
+}
+
+.ag-timeline_line-progress {
+    width: 100%;
+    height: 20%;
+    background-color: #FF0;
+}
+
+.ag-timeline-item_box {
+    width: 45%;
+    height: 100%;
+}
+
+.ag-timeline-card_box {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.ag-timeline-card_point {
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    border: 3px solid #FF0;
+    background-color: #1d1d1b;
+
+    text-align: center;
+    font-family: 'ESL Legend', sans-serif;
+    font-size: 20px;
+    color: #FFF;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.js-ag-active .ag-timeline-card_point {
+    color: #1d1d1b;
+    background-color: #FF0;
+}
+.ag-timeline-card_meta-box {
+    display: inline-block;
+}
+.ag-timeline-card_meta {
+    margin: 10px 0 0;
+
+    font-family: 'ESL Legend', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #FF0;
+}
+
+@media only screen and (max-width: 979px) {
+    .ag-timeline_line {
+    left: 30px;
+    }
+
+    .ag-timeline-card_point {
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .ag-format-container {
+    width: 96%;
+    }
+
+}
+
+@media only screen and (max-width: 639px) {
+    .ag-timeline_title {
+    font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .ag-format-container {
+    width: 750px;
+    }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+    .ag-format-container {
+    width: 960px;
+    }
+
+}
