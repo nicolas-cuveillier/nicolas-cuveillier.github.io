@@ -1,30 +1,17 @@
-
-import SocialMedia from "./components/SocialMedia";
-import Timeline from "./components/Timeline";
+import WelcomPage from "./components/WelcomSection";
+import EducationSection from "./components/EducationSection";
+import ProjectSection from "./components/ProjectSection";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
     <div className="App">
-
-      <div className="welcom_page">
-        <div className="pict_component">
-          <div className="principal_pict"></div>
-          <div className="socialmedia_component">
-            <SocialMedia/>
-          </div>
-        </div>
-      </div>
-
-
-      <div className="education_page">
-        <Timeline/>
-        
-      </div>
-      <div className="projects_page">
-        
-      </div>
+      <Navigation/>
+      <WelcomPage/>
+      <EducationSection/>
+      <ProjectSection/>
     </div>
   );
 }
-
 export default App;
+
