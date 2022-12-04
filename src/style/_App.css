@@ -23,25 +23,9 @@
 .socialmedia_component{
     width: 100%;
     height: 10%;
-    background-color: green;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 /****************************************/
 
-/*Educational part of the portfolio*/
-.education_page{
-    background-color: violet;
-    width: 100%;
-    height: 770px;
-}
-/****************************************/
-
-/*Projects, Coursework and soft skills part of the portfolio*/
-.projects_page{
-    background-color: rosybrown;
-    width: 100%;
-    height: 770px;
-}
-/****************************************/
