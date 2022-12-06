@@ -5,5 +5,10 @@
 }
 
 .social-media-item{
-  padding: 20px;
+  padding: 40px;
+}
+
+.item-link{
+  height: 100px;
+  width: 10px;
 }

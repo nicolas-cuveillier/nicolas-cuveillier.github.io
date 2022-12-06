@@ -12,8 +12,8 @@ function App() {
       <Navigation/>
       <WelcomPage/>
       <EducationSection/>
-      <ProjectSection/>
       <SkillsSection/>
+      <ProjectSection/>
     </div>
   );
 }

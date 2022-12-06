@@ -4,10 +4,6 @@ body {
     overflow-x: hidden;
 }
 
-img {
-    max-width: 100%;
-}
-
 .ag-format-container {
     width: 1160px;
     margin: 0 auto;
@@ -19,13 +15,13 @@ img {
     padding: 20px 0;
 }
 .ag-timeline_title-box {
-    padding: 0 0 10px;
+    padding: 0 0 50px;
 
     text-align: center;
 }
 .ag-timeline_tagline {
-    font-size: 40px;
-    color: rgb(84, 89, 95);
+    font-size: 50px;
+    color: rgb(255, 255, 255);
 }
 .ag-timeline_title {
     font-size: 70px;
@@ -57,21 +53,21 @@ img {
     position: relative;
 }
 .ag-timeline_line {
-    width: 2px;
-    background-color: #393935;
+    width: 3px;
+    background-color: #ffffff;
 
     position: absolute;
-    top: 2px;
+    top: -20px;
     left: 50%;
-    bottom: 10%;
+    bottom: 5%;
 
     overflow: hidden;
 }
 
 .ag-timeline_line-progress {
     width: 100%;
-    height: 20%;
-    background-color: #FF0;
+    height: 40%;
+    background-color: rgb(255,127,80);
 }
 
 .ag-timeline-item_box {
@@ -86,20 +82,21 @@ img {
 }
 
 .ag-timeline-card_point {
-    height: 50px;
-    line-height: 50px;
-    width: 50px;
-    border: 3px solid #FF0;
-    background-color: #1d1d1b;
+    height: 35px;
+    width: 45px;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
 
     text-align: center;
+    line-height: 35px;
     font-family: 'ESL Legend', sans-serif;
-    font-size: 20px;
-    color: #FFF;
+    font-size: 18px;
+    font-weight: 200;
+    color: #000;
 
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    border-radius: 50%;
+    border-radius: 30%;
 }
 .js-ag-active .ag-timeline-card_point {
     color: #1d1d1b;

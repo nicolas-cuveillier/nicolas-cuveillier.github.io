@@ -1,8 +1,23 @@
 /*Projects, Coursework and soft skills part of the portfolio*/
 .skills_page{
-    background-color: rosybrown;
+    background-color: white;
     width: 100%;
     height: 770px;
 }
-/****************************************/
 
+.skills-selection-container{
+    width: 100%;
+    height: 150px;
+    background-color: rebeccapurple;
+}
+.skills-items-container{
+    margin: 5% 10%;
+}
+
+.skills-items-list{
+    display: grid; /* make grid container */
+    grid-template-columns: repeat(5, 1fr); /* create template with 5 columns per row */
+    column-gap: 3em; /* add gaps between cells (column) */
+    row-gap: 2em; /* add gaps between cells (rows) */
+}
+/****************************************/

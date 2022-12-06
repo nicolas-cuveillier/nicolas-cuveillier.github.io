@@ -5,7 +5,7 @@
 
 .nav-item-container {
     width: 100%;
-    height: 100px;
+    height: 90px;
     background-color: white;
     display: flex;
 }
@@ -30,13 +30,15 @@ li {
     display: inline;
     margin: 0px 45px 0px 45px;
     padding: 5px 10px;
-    font-size: 20px;
-    border-color: aqua;
-    border-width: 2px;
-    border-radius: 100px;
+
 }
 
-li:hover {
-    border-style: solid;
-    transition: 1s ;
+.item{
+    font-family: 'ESL Legend', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.item:hover {
+    color: rgb(255,127,80);
 }

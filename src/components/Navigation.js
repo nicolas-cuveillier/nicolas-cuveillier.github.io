@@ -11,13 +11,19 @@ const Navigation = () => {
                 <div className="nav-logo-container">Nicolas</div>
                 <ul className="nav-list">
                     <li className="nav-list-item">
-                        <Link to="section2" className="item" smooth={true} duration={500}>Education</Link>
+                        <div className="item-container">
+                            <Link to="section2" className="item" smooth={true} duration={500}>Education</Link>
+                        </div>
                     </li>
                     <li className="nav-list-item">
-                        <Link to="section3" className="item" smooth={true} duration={600}>Skills</Link>
+                        <div className="item-container">
+                            <Link to="section3" className="item" smooth={true} duration={600}>Skills</Link>
+                        </div>
                     </li>
                     <li className="nav-list-item">
-                        <Link to="section4" className="item" smooth={true} duration={700}>Projects</Link>
+                        <div className="item-container">
+                            <Link to="section4" className="item" smooth={true} duration={700}>Projects</Link>
+                        </div>
                     </li>
                 </ul>
             </div>
