@@ -21,7 +21,7 @@ function SkillsSection() {
             </div>
             <div className="skills-items-container">
                 <ul className="skills-items-list">
-                    {data.map(e => <div><Skill data={e} key={e.title}/></div>)}
+                    {data.map((e) => (<div key={e.title}><Skill data={e} /></div>))}
                 </ul>
             </div>
 

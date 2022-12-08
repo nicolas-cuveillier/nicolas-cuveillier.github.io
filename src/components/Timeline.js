@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 
 function Timeline() {
-    const [height, setHeight] = useState("10%")
+    const [height, setHeight] = useState("15%")
 
     window.addEventListener("scroll", function(){
-        if(window.scrollY > 300 && window.scrollY < 830){
-            console.log(this.window.screen.height*(80/100))
-            //TODO compute correct value
-            //var value = window.scrollY/20
-            //console.log(value + "%")
-            //setHeight(value + "%")
-        }
+        //1070
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        console.log(scrolled)
+        setHeight(scrolled + "%")
+
     });
 
     return(
@@ -30,7 +30,7 @@ function Timeline() {
                             <div className="ag-timeline-item_box"></div>
                             <div className="ag-timeline-card_box">
                             <div className="js-timeline-card_point-box ag-timeline-card_point-box">
-                                <div className="ag-timeline-card_point">2020</div>
+                                <div className="ag-timeline-card_point" id="js-ag-active">2020</div>
                             </div>
                             </div>
                         </div>

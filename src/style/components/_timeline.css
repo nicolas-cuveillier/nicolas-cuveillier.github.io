@@ -59,7 +59,7 @@ body {
     position: absolute;
     top: -20px;
     left: 50%;
-    bottom: 5%;
+    bottom: 15%;
 
     overflow: hidden;
 }
@@ -98,9 +98,11 @@ body {
     -moz-border-radius: 50%;
     border-radius: 30%;
 }
-.js-ag-active .ag-timeline-card_point {
+
+#js-ag-active {
     color: #1d1d1b;
-    background-color: #FF0;
+    background-color:rgb(255,127,80);
+    border-color: rgb(255,127,80);
 }
 .ag-timeline-card_meta-box {
     display: inline-block;
