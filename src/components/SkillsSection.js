@@ -15,9 +15,12 @@ function SkillsSection() {
     },[playOnce]);
 
     return(
-        <div name="section4" className="skills_page">
-            <div className="skills-selection-container">
-
+        <section name="section3" className="skills-page">
+            <div className="skills-intro-container">
+                <div className="skills-title-selection-container">
+                    <div className="skills-title">Skills</div>
+                    <div className="skills-selection-container"></div>
+                </div>
             </div>
             <div className="skills-items-container">
                 <ul className="skills-items-list">
@@ -26,7 +29,7 @@ function SkillsSection() {
             </div>
 
         
-        </div>
+        </section>
     )
 }
 export default SkillsSection;

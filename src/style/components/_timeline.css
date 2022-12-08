@@ -1,9 +1,3 @@
-body {
-    background-color: #000;
-
-    overflow-x: hidden;
-}
-
 .ag-format-container {
     width: 1160px;
     margin: 0 auto;
@@ -11,9 +5,6 @@ body {
     position: relative;
 }
 
-.ag-timeline-block {
-    padding: 20px 0;
-}
 .ag-timeline_title-box {
     padding: 0 0 50px;
 
@@ -28,18 +19,19 @@ body {
 }
 
 .ag-timeline_item_right {
-    margin: 0 0 20px;
+    margin-bottom: 20px;
     height: 150px;
     position: relative;
     display: flex;
 }
 
 .ag-timeline_item_left {
-    margin: 0 0 20px 47.5%;
     height: 150px;
-    position: relative;
     display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
 }
+
 .ag-timeline_item:nth-child(2n) {
     text-align: right;
 }
@@ -59,7 +51,7 @@ body {
     position: absolute;
     top: -20px;
     left: 50%;
-    bottom: 15%;
+    bottom: 10%;
 
     overflow: hidden;
 }
@@ -76,7 +68,7 @@ body {
 }
 
 .ag-timeline-card_box {
-    width: 10%;
+    width: 30%;
     display: flex;
     justify-content: center;
 }
@@ -104,22 +96,16 @@ body {
     background-color:rgb(255,127,80);
     border-color: rgb(255,127,80);
 }
-.ag-timeline-card_meta-box {
-    display: inline-block;
-}
-.ag-timeline-card_meta {
-    margin: 10px 0 0;
 
-    font-family: 'ESL Legend', sans-serif;
-    font-weight: bold;
-    font-size: 28px;
-    color: #FF0;
+
+.ag-timeline-item_box{
+    background-color: #ffffff;
+    width: 35%;
+    border-radius: 15px;
 }
 
 @media only screen and (max-width: 979px) {
-    .ag-timeline_line {
-    left: 30px;
-    }
+   
 
     .ag-timeline-card_point {
     height: 40px;

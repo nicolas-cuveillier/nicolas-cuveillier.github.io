@@ -41,4 +41,5 @@ li {
 
 .item:hover {
     color: rgb(255,127,80);
+    transition: 0.3s;
 }

@@ -3,9 +3,9 @@ import React from "react";
 
 function EducationSection() {
     return(
-        <div name="section2" className="education_page">
+        <section name="section2" className="education_page">
             <TimelineSec/>
-        </div>
+        </section>
     )
 }
 export default EducationSection;

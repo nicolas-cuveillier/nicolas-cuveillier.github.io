@@ -2,9 +2,9 @@ import React from "react";
 
 function ProjectSection() {
     return(
-        <div name="section3" className="projects_page">
+        <section name="section4" className="projects_page">
         
-        </div>
+        </section>
     )
 }
 export default ProjectSection;

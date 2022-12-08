@@ -1,15 +1,37 @@
 /*Projects, Coursework and soft skills part of the portfolio*/
-.skills_page{
+.skills-page{
     background-color: white;
     width: 100%;
     height: 770px;
 }
 
-.skills-selection-container{
+.skills-intro-container{
     width: 100%;
     height: 150px;
-    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.skills-title-selection-container{
+    width: 35%;
+}
+
+.skills-title{
+    text-align: center;
+    height: 60px;
+    padding-bottom: 20px;
+    width: 100%;
+    font-size: 50px;
+}
+
+.skills-selection-container{
+    height: 40px;
+    width: 100%;
+    background-color: gray;
+    border-radius: 25px;
+}
+
 .skills-items-container{
     margin: 5% 10%;
 }
