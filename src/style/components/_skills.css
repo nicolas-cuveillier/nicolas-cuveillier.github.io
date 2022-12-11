@@ -14,7 +14,7 @@
 }
 
 .skills-title-selection-container{
-    width: 35%;
+    width: 25%;
 }
 
 .skills-title{
@@ -28,8 +28,32 @@
 .skills-selection-container{
     height: 40px;
     width: 100%;
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.46);
     border-radius: 25px;
+    display: flex;
+    position: relative;
+}
+
+.skills-selectioner{
+    height: 100%;
+    width: 38%;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 35px;
+    transition: 0.25s;
+}
+
+#select1{
+    position: absolute;
+    left: 0px;
+}
+#select2{
+    position: absolute;
+    left: 95px;
+}
+#select3{
+    position: absolute;
+    left: 190px;
 }
 
 .skills-items-container{
