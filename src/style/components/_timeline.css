@@ -14,6 +14,7 @@
     font-size: 50px;
     color: rgb(255, 255, 255);
 }
+
 .ag-timeline_title {
     font-size: 70px;
 }
@@ -30,10 +31,6 @@
     display: flex;
     justify-content: flex-end;
     margin-bottom: 20px;
-}
-
-.ag-timeline_item:nth-child(2n) {
-    text-align: right;
 }
 
 .ag-timeline {
@@ -65,12 +62,48 @@
 .ag-timeline-item_box {
     width: 45%;
     height: 100%;
+    padding: 10px;
+    position: relative;
+}
+.ag-timeline-item_box > h3{
+    width: 60%;
+    margin: 20px;
+}
+
+.ag-timeline-item_box > p{
+    width: 95%;
+    height: 40%;
+    padding: 10px;
+    font-family: 'ESL Legend', sans-serif;
+    font-size: 18px;
+    font-weight: 150;
+}
+
+.ag-timeline-item-box_pict {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+#pict_epfl{
+    background-image: url("../image/Logo_EPFL.svg");
+}
+#pict_tecnico{
+    background-image: url("../image/IST_logo.png");
+}
+#pict_epfl_ethz{
+    background-image: url("../image/ethz_logo.svg");
 }
 
 .ag-timeline-card_box {
-    width: 30%;
+    width: 26.5%;
     display: flex;
     justify-content: center;
+    z-index: 1;
 }
 
 .ag-timeline-card_point {

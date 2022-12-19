@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/react": "^13.4.0"
+    "@testing-library/react": "^13.4.0",
+    "react-error-overlay": "^6.0.9"
   }
 }

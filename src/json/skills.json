@@ -1,16 +1,45 @@
 [{
     "title" : "Java",
-    "image" : "../style/image/java-archive.png"
+    "image" : "../style/image/python.png",
+    "type"  : "tecnical"
 },
 
 {
     "title" : "Python",
-    "image" : "../style/image/python.png"
+    "image" : "../style/image/python.png",
+    "type"  : "soft"
 }
 ,
 
 {
     "title" : "Scala",
-    "image" : "../style/image/scala.png"
+    "image" : "../style/image/scala.png",
+    "type"  : "tecnical"
+},
+
+{
+    "title" : "t",
+    "image" : "../style/image/python.png",
+    "type"  : "soft"
+}
+,
+
+{
+    "title" : "test",
+    "image" : "../style/image/scala.png",
+    "type"  : "tecnical"
+},
+
+{
+    "title" : "test1",
+    "image" : "../style/image/python.png",
+    "type"  : "tecnical"
+}
+,
+
+{
+    "title" : "test2",
+    "image" : "../style/image/scala.png",
+    "type"  : "tecnical"
 }
 ]
