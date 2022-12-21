@@ -2,11 +2,17 @@ import React from "react";
 
 function Skill(props) {
     const skill = props.data
-    const image = skill.image
   
     return(
         <div className="skill-container">
-            <div className="skill-img" style={{backgroundImage: `url(${require("../style/image/python.png")})`}}></div>
+            <div className="skill-img-container">
+                <div className="skill-img" style={{backgroundImage: `url(${skill.image})`}}></div>
+            </div>
+            <div className="skill-bar-container">
+                <div class="progress-light-grey" id={skill.title}>
+                    <div class="progress-grey" style={{width:skill.percent }}></div>
+                </div>
+            </div>
         </div>
     )
 }
