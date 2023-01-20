@@ -3,15 +3,17 @@ import SocialMedia from "./SocialMedia";
 
 
 function WelcomPage(){
+
     return(
-        <section name="section1" className="welcom_page">
+        <section name="section1" className="welcom_page" >
+          
             <div className="pict_component">
-                <div className="memoji"></div>
-                <div className="principal_pict">
-                </div>
-                <div className="socialmedia_component">
-                    <SocialMedia/>
-                </div>
+            <div className="memoji"></div>
+            <div className="principal_pict">
+            </div>
+            <div className="socialmedia_component">
+                <SocialMedia/>
+            </div>
             </div>
         </section>
     )

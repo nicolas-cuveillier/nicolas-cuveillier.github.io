@@ -1,36 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Timeline() {
-    const [height, setHeight] = useState("15%")
-    const boxes = document.getElementsByClassName("ag-timeline-card_point")
-
-    window.addEventListener("scroll", function(){
-        //1070
-        const epsilon = 1
-        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight - 1070;
-        var scrolled = (winScroll / height ) * 100;
-        //setHeight(scrolled + "%")
-        // //TODO BETTER
-        // if(Math.abs(scrolled - 30) < epsilon){
-        //     boxes[1].setAttribute("id", "js-ag-active")
-        // }
-        // if (Math.abs(scrolled - 60) < epsilon){
-        //     boxes[2].setAttribute("id", "js-ag-active")
-        // }
-        // if (Math.abs(scrolled - 90) < epsilon){
-        //     boxes[3].setAttribute("id", "js-ag-active")
-        // }
-        // if ((scrolled - 90) < 0 && Math.abs(scrolled - 90) > epsilon){
-        //     boxes[3].removeAttribute("id")
-        // }
-        // if ((scrolled - 60) < 0 && Math.abs(scrolled - 60) > epsilon){
-        //     boxes[2].removeAttribute("id")
-        // }
-        // if ((scrolled - 30) < 0 && Math.abs(scrolled - 60) > epsilon){
-        //     boxes[1].removeAttribute("id")
-        // }
-    });
+    const height = '60%'
 
     return(
         <div className="ag-timeline-block">
@@ -61,7 +32,7 @@ function Timeline() {
                         <div className="js-timeline_item ag-timeline_item_left">
                             <div className="ag-timeline-card_box">
                             <div className="js-timeline-card_point-box ag-timeline-card_point-box">
-                                <div className="ag-timeline-card_point">2022</div>                                
+                                <div className="ag-timeline-card_point" id="js-ag-active">2022</div>                                
                             </div>
                             </div>
 
@@ -80,7 +51,7 @@ function Timeline() {
                             </div>
                             <div className="ag-timeline-card_box">
                             <div className="js-timeline-card_point-box ag-timeline-card_point-box">
-                                <div className="ag-timeline-card_point">2023</div>
+                                <div className="ag-timeline-card_point" id="js-ag-active">2023</div>
                             </div>
                             </div>
                         </div>

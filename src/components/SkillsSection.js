@@ -29,9 +29,9 @@ function SkillsSection() {
                 <div className="skills-title-selection-container">
                     <div className="skills-title">Skills</div>
                     <div className="skills-selection-container">
-                        <div className="skills-selectioner" id="tecnical" onClick={() => setId("tecnical")}>tecnical</div>
-                        <div className="skills-selectioner" id="soft" onClick={() => setId("soft")}>soft</div>
-                        <div className="skills-selectioner" id="all" onClick={() => setId("all")}>test</div>
+                        <div className="skills-selectioner" id="tecnical" onClick={() => setId("tecnical")}>Tech</div>
+                        <div className="skills-selectioner" id="soft" onClick={() => setId("soft")}>Soft</div>
+                        <div className="skills-selectioner" id="all" onClick={() => setId("all")}>All</div>
                     </div>
                 </div>
             </div>
