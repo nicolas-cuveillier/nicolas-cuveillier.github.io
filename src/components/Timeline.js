@@ -2,6 +2,24 @@ import React from "react";
 
 function Timeline() {
     const height = '60%'
+    const elems = document.getElementsByClassName("ag-timeline-item_box")
+
+    window.addEventListener('scroll', function (){
+        var scroll = window.scrollY - 140
+        var idx = Math.floor(scroll / 200)
+        idx = Math.min(4,idx)
+        
+        for (let i = 0; i < 4; i++) {
+            if(i <= idx){
+                i%2 === 0 ? elems[i].classList.add("fade-left") : elems[i].classList.add("fade-right")
+                elems[i].classList.add("active") 
+            } else {
+                i%2 === 0 ? elems[i].classList.remove("fade-left") : elems[i].classList.remove("fade-right")
+                elems[i].classList.remove("active") 
+            }
+        }
+
+    });
 
     return(
         <div className="ag-timeline-block">
