@@ -12,10 +12,8 @@ function Timeline() {
         for (let i = 0; i < 4; i++) {
             if(i <= idx){
                 i%2 === 0 ? elems[i].classList.add("fade-left") : elems[i].classList.add("fade-right")
-                elems[i].classList.add("active") 
             } else {
                 i%2 === 0 ? elems[i].classList.remove("fade-left") : elems[i].classList.remove("fade-right")
-                elems[i].classList.remove("active") 
             }
         }
 
@@ -36,9 +34,9 @@ function Timeline() {
 
                         <div className="js-timeline_item ag-timeline_item_right">
                             <div className="ag-timeline-item_box">
-                                <h3>École Polytechnique Fédérale de Lausanne</h3>
+                                <h3>École Polytechnique Fédérale de Lausanne - 2020/2023</h3>
                                 <div className="ag-timeline-item-box_pict" id="pict_epfl"></div>
-                                <p>Bachelor in Computer Science - 2020/2023</p>
+                                <p>Communications Systems Bachelor</p>
                             </div>
                             <div className="ag-timeline-card_box">
                             <div className="js-timeline-card_point-box ag-timeline-card_point-box">
@@ -55,17 +53,17 @@ function Timeline() {
                             </div>
 
                             <div className="ag-timeline-item_box">
-                                <h3>Instituto Superior Tecnico</h3>
+                                <h3>Instituto Superior Tecnico - 2022/2023</h3>
                                 <div className="ag-timeline-item-box_pict" id="pict_tecnico"></div>
-                                <p>Exchange year - 2022/2023</p>
+                                <p>Exchange year</p>
                             </div>
                         </div>
 
                         <div className="js-timeline_item ag-timeline_item_right">
                             <div className="ag-timeline-item_box">
-                                <h3>Gap Year</h3>
+                                <h3>Gap Year  - 2023/2024</h3>
                                 <div className="ag-timeline-item-box_pict" id="pict_gap_year"></div>
-                                <p>Interships - 2023/2024</p>
+                                <p>Interships</p>
                             </div>
                             <div className="ag-timeline-card_box">
                             <div className="js-timeline-card_point-box ag-timeline-card_point-box">
@@ -81,9 +79,9 @@ function Timeline() {
                             </div>
                             </div>
                             <div className="ag-timeline-item_box">
-                                <h3>École Polytechnique Fédérale de Lausanne</h3>
+                                <h3>École Polytechnique Fédérale de Lausanne - 2024/2025</h3>
                                 <div className="ag-timeline-item-box_pict" id="pict_epfl_ethz"></div>
-                                <p>Master in Cyber Security in collaboration with ETHZ - 2024/2025</p>
+                                <p>Cyber Security Master</p>
                             </div>
                         </div>
 

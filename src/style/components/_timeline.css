@@ -1,13 +1,11 @@
 .ag-format-container {
     width: 1160px;
     margin: 0 auto;
-
     position: relative;
 }
 
 .ag-timeline_title-box {
     padding: 0 0 50px;
-
     text-align: center;
 }
 .ag-timeline_tagline {
@@ -26,17 +24,17 @@
 }
 
 .ag-timeline_item_right {
-    margin-bottom: 20px;
-    height: 150px;
+    margin-bottom: 40px;
+    height: 175px;
     position: relative;
     display: flex;
 }
 
 .ag-timeline_item_left {
-    height: 150px;
+    height: 175px;
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .ag-timeline {
@@ -65,8 +63,13 @@
     background-color: rgb(255,127,80);
 }
 
+
 .ag-timeline-item_box {
-    width: 45%;
+    border-radius: 15px;
+    background-color: #ffffff;
+    width: 30%;
+    margin-left: 7%;
+    margin-right: 7%;
     height: 100%;
     padding: 10px;
     position: relative;
@@ -74,47 +77,40 @@
     transition: 1s all ease;
 }
 
-.active{
-    opacity: 1;
-}
-
 .fade-left{
     animation: fade-left 0.5s ease-in;
+    opacity: 1;
 } 
 .fade-right{
     animation: fade-right 0.5s ease-in;
+    opacity: 1;
 }
 
 @keyframes fade-left {
     0% {
       transform: translateX(-100px);
-      opacity: 0;
     }
     100% {
       transform: translateX(0);
-      opacity: 1;
     }
 }
 @keyframes fade-right {
     0% {
       transform: translateX(100px);
-      opacity: 0;
     }
     100% {
       transform: translateX(0);
-      opacity: 1;
     }
   }
 
 .ag-timeline-item_box > h3{
-    width: 60%;
     margin: 20px;
 }
 
 .ag-timeline-item_box > p{
-    width: 95%;
+    width: 55%;
     height: 40%;
-    padding: 10px;
+    padding: 20px;
     font-family: 'ESL Legend', sans-serif;
     font-size: 18px;
     font-weight: 150;
@@ -122,9 +118,9 @@
 
 .ag-timeline-item-box_pict {
     width: 100px;
-    height: 50px;
+    height:40px;
     position: absolute;
-    top: 30px;
+    top: 65%;
     right: 30px;
     background-size:contain;
     background-repeat: no-repeat;
@@ -141,9 +137,8 @@
 }
 
 .ag-timeline-card_box {
-    width: 26.5%;
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    left: 47.75%;
     z-index: 1;
 }
 
@@ -157,26 +152,18 @@
     line-height: 35px;
     font-family: 'ESL Legend', sans-serif;
     font-size: 18px;
-    font-weight: 200;
-    color: #000;
-
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 30%;
+    font-weight: 400;
+    
+    border-radius: 20%;
 }
 
 #js-ag-active {
-    color: #1d1d1b;
     background-color:rgb(255,127,80);
     border-color: rgb(255,127,80);
 }
 
 
-.ag-timeline-item_box{
-    background-color: #ffffff;
-    width: 35%;
-    border-radius: 15px;
-}
+
 
 @media only screen and (max-width: 979px) {
    
