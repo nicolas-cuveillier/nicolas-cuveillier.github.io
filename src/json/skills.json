@@ -2,14 +2,16 @@
     "title" : "Java",
     "image" : "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
     "type"  : "tecnical",
-    "percent": "90%"
+    "percent": "90%",
+    "description":"lorem ipsum lorem ipsum lorem ipsum"
 },
 
 {
     "title" : "Python",
     "image" : "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg",
     "type"  : "tecnical",
-    "percent": "65%"
+    "percent": "65%",
+    "description":"lorem ipsum lorem ipsum lorem ipsum"
 }
 ,
 
@@ -17,14 +19,16 @@
     "title" : "Scala",
     "image" : "https://upload.wikimedia.org/wikipedia/commons/3/39/Scala-full-color.svg",
     "type"  : "tecnical",
-    "percent": "50%"
+    "percent": "50%",
+    "description":"lorem ipsum lorem ipsum lorem ipsum"
 },
 
 {
     "title" : "C",
     "image" : "https://upload.wikimedia.org/wikipedia/commons/3/35/The_C_Programming_Language_logo.svg",
     "type"  : "tecnical",
-    "percent": "70%"
+    "percent": "70%",
+    "description":"lorem ipsum lorem ipsum lorem ipsum"
 }
 ,
 
@@ -32,14 +36,16 @@
     "title" : "html",
     "image" : "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
     "type"  : "tecnical",
-    "percent": "60%"
+    "percent": "60%",
+    "description":"lorem ipsum lorem ipsum lorem ipsum"
 },
 
 {
     "title" : "css",
     "image" : "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
     "type"  : "tecnical",
-    "percent": "55%"
+    "percent": "55%",
+    "description":"lorem ipsum lorem ipsum lorem ipsum"
 }
 
 ,
@@ -47,7 +53,8 @@
     "title" : "react.js",
     "image" : "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
     "type"  : "tecnical",
-    "percent": "65%"
+    "percent": "65%",
+    "description":"lorem ipsum lorem ipsum lorem ipsum"
 }
 ,
 
@@ -55,29 +62,40 @@
     "title" : "virtualbox",
     "image" : "https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png",
     "type"  : "tecnical",
-    "percent": "90%"
+    "percent": "90%",
+    "description":"lorem ipsum lorem ipsum lorem ipsum"
 }
 ,
 {
     "title" : "git",
     "image" : "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg",
     "type"  : "tecnical",
-    "percent": "75%"
+    "percent": "75%",
+    "description":"lorem ipsum lorem ipsum lorem ipsum"
 }
 ,
-
+{
+    "title" : "SQL",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/6/6f/Sql_database_shortcut_icon.png",
+    "type"  : "tecnical",
+    "percent": "75%",
+    "description":"lorem ipsum lorem ipsum lorem ipsum"
+}
+,
 {
     "title" : "github",
     "image" : "https://upload.wikimedia.org/wikipedia/commons/2/29/GitHub_logo_2013.svg",
     "type"  : "tecnical",
-    "percent": "75%"
+    "percent": "75%",
+    "description":"lorem ipsum lorem ipsum lorem ipsum"
 }
 ,
 {
     "title" : "Linux",
     "image" : "https://upload.wikimedia.org/wikipedia/commons/4/4b/Kali_Linux_2.0_wordmark.svg",
     "type"  : "tecnical",
-    "percent": "65%"
+    "percent": "65%",
+    "description":"lorem ipsum lorem ipsum lorem ipsum"
 }
 ,
 
@@ -85,14 +103,16 @@
     "title" : "bash",
     "image" : "https://upload.wikimedia.org/wikipedia/commons/8/82/Gnu-bash-logo.svg",
     "type"  : "tecnical",
-    "percent": "40%"
+    "percent": "40%",
+    "description":"lorem ipsum lorem ipsum lorem ipsum"
 }
 ,
 {
     "title" : "confident_with_teamwork",
     "image" : "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg",
     "type"  : "soft",
-    "percent": "95%"
+    "percent": "95%",
+    "description":"lorem ipsum lorem ipsum lorem ipsum"
 }
 ,
 
@@ -100,6 +120,7 @@
     "title" : "independent",
     "image" : "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg",
     "type"  : "soft",
-    "percent": "85%"
+    "percent": "85%",
+    "description":"lorem ipsum lorem ipsum lorem ipsum"
 }
 ]

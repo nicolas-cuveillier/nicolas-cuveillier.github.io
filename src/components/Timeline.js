@@ -34,7 +34,8 @@ function Timeline() {
 
                         <div className="js-timeline_item ag-timeline_item_right">
                             <div className="ag-timeline-item_box">
-                                <h3>École Polytechnique Fédérale de Lausanne - 2020/2023</h3>
+                                <h3>École Polytechnique Fédérale de Lausanne</h3>
+                                <h4>2020/2023</h4>
                                 <div className="ag-timeline-item-box_pict" id="pict_epfl"></div>
                                 <p>Communications Systems Bachelor</p>
                             </div>
@@ -53,7 +54,8 @@ function Timeline() {
                             </div>
 
                             <div className="ag-timeline-item_box">
-                                <h3>Instituto Superior Tecnico - 2022/2023</h3>
+                                <h3>Instituto Superior Tecnico</h3>
+                                <h4>2022/2023</h4>
                                 <div className="ag-timeline-item-box_pict" id="pict_tecnico"></div>
                                 <p>Exchange year</p>
                             </div>
@@ -61,7 +63,8 @@ function Timeline() {
 
                         <div className="js-timeline_item ag-timeline_item_right">
                             <div className="ag-timeline-item_box">
-                                <h3>Gap Year  - 2023/2024</h3>
+                                <h3>Gap Year</h3>
+                                <h4>2023/2024</h4>
                                 <div className="ag-timeline-item-box_pict" id="pict_gap_year"></div>
                                 <p>Interships</p>
                             </div>
@@ -79,7 +82,8 @@ function Timeline() {
                             </div>
                             </div>
                             <div className="ag-timeline-item_box">
-                                <h3>École Polytechnique Fédérale de Lausanne - 2024/2025</h3>
+                                <h3>École Polytechnique Fédérale de Zurich</h3>
+                                <h4>2024/2025</h4>
                                 <div className="ag-timeline-item-box_pict" id="pict_epfl_ethz"></div>
                                 <p>Cyber Security Master</p>
                             </div>

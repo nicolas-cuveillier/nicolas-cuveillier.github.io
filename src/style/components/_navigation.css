@@ -1,11 +1,13 @@
 .navigation{
-    padding: 20px;
+    padding: 40px 60px;
     display: flex;
 }
 
 .nav-logo-container{
     width: 200px;
-    background-color: aqua;
+    background-image: url("../image/Logo.png");
+    background-repeat: no-repeat;
+    background-size: contain
 }
 
 
@@ -33,7 +35,7 @@
 
 .nav a {
     padding: .5em .8em;
-    color: rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, 0.804);
     position: relative;
     text-decoration: none;
     font-size: 20px;

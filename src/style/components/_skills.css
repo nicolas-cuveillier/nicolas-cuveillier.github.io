@@ -1,6 +1,6 @@
 /*Projects, Coursework and soft skills part of the portfolio*/
 .skills-page{
-    background-color: white;
+    background-color: rgba(255, 255, 255);
     width: 100%;
 }
 
@@ -22,12 +22,13 @@
     padding-bottom: 20px;
     width: 100%;
     font-size: 50px;
+    color: none;
 }
 
 .skills-selection-container{
     height: 40px;
     width: 100%;
-    background-color: rgba(128, 128, 128, 0.46);
+    background-color: rgba(0, 0, 0, 0.736);
     border-radius: 25px;
     display: flex;
     position: relative;

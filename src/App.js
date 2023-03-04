@@ -5,7 +5,6 @@ import ProjectSection from "./components/ProjectSection";
 import Navigation from "./components/Navigation";
 import React from "react";
 import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
 import { useCallback } from "react";
 
 
@@ -36,18 +35,25 @@ function App() {
             }}
             options={{
               fullScreen: {
-                enable: true,
+              
                 zIndex: -1
               },
               particles: {
                 number: {
-                  value: 100,
-                  limit: 200,
+                  value: 60,
+                  limit: 90,
                   density: {
                     enable: true,
-                    value_area: 800
+                    value_area: 500
                   }
                 },
+                links: {
+                  color: "#000000",
+                  distance: 140,
+                  enable: true,
+                  opacity: 1,
+                  width: 1,
+               },
                 color: {
                   value: "#0030ff"
                 },
@@ -65,7 +71,7 @@ function App() {
                   }
                 },
                 size: {
-                  value: 10,
+                  value: 5,
                   random: true,
                   anim: {
                     enable: true,
@@ -76,7 +82,7 @@ function App() {
                 },
                 move: {
                   enable: true,
-                  speed: 2,
+                  speed: 1,
                   direction: "none",
                   random: false,
                   straight: false,
@@ -87,26 +93,11 @@ function App() {
                   }
                 }
               },
-              interactivity: {
-                detect_on: "canvas",
-                events: {
-                  onClick: {
-                    enable: true,
-                    mode: "push"
-                  },
-                  resize: true
-                }
-              },
+              
               backgroundMask: {
                 enable: true,
                 cover: {
-                  color: {
-                    value: {
-                      r: 26,
-                      g: 25,
-                      b: 26
-                    }
-                  }
+                  color: "#202020"
                 }
               }
             }}
@@ -114,7 +105,6 @@ function App() {
 
       <Navigation/>
       <WelcomPage/>
-
       <EducationSection/>
       <SkillsSection/>
       <ProjectSection/>
