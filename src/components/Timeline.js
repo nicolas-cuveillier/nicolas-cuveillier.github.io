@@ -27,22 +27,30 @@ function Timeline() {
         <div className="ag-format-container">
             <div className="timeline-rowblock">
                 <div className="timeline-outerblock-left">
-                    <div className="timeline-innerblock-left"></div>
+                    <h3>École Polytechnique Fédérale de Lausanne</h3>
+                    <p>I'm Nicolas, a computer science student and here is a bit of my life.</p>
+                    <div className="timeline-innerblock-left">2020<br></br>-<br></br>2023</div>
                 </div>
             </div>
             <div className="timeline-rowblock">
                 <div className="timeline-outerblock-right">
-                    <div className="timeline-innerblock-right"></div>
+                    <div className="timeline-innerblock-right">2022<br></br>-<br></br>2023</div>
+                    <h3>Instituto Superior Tecnico</h3>
+                    <p>I'm Nicolas, a computer science student and here is a bit of my life.</p>
                 </div>
             </div>
             <div className="timeline-rowblock">
                 <div className="timeline-outerblock-left">
-                    <div className="timeline-innerblock-left"></div>
+                    <h3>Gap year</h3>
+                    <p>I'm Nicolas, a computer science student and here is a bit of my life.</p>
+                    <div className="timeline-innerblock-left">2023<br></br>-<br></br>2024</div>
                 </div>
             </div>
             <div className="timeline-rowblock">
                 <div className="timeline-outerblock-right">
-                    <div className="timeline-innerblock-right"></div>
+                    <div className="timeline-innerblock-right">2024<br></br>-<br></br>2026</div>
+                    <h3>École Polytechnique Fédérale de Zurich</h3>
+                    <p>I'm Nicolas, a computer science student and here is a bit of my life.</p>
                 </div>
             </div>
         </div>

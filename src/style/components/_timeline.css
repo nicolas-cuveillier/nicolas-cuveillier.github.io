@@ -1,54 +1,89 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
 .ag-format-container {
-    background-color:blue;
+    padding-bottom: 40px;
 }
 
 .timeline-rowblock{
-    background-color: brown;
-    height: 130px;
+    background-color: rgb(230, 229, 229);
+    height: 140px;
     display: flex;
     flex-direction: row;
 }
 
 .timeline-outerblock-left{
-    background-color: aquamarine;
-    width: 30%;
-    height: 92.5%;
+    background-color: rgb(180, 180, 180);
+    width: 40vw;
+    height: 85%;
     border-radius: 70px;
-    margin-left: 25%;
+    margin-left: 17%;
     position: relative;
     opacity: 0;
     transition: all 1s;
+    
 }
 
 .timeline-innerblock-left{
-    height: 90%;
-    width: 30%;
-    background-color: black;
+    height: 70%;
+    width: 15%;
+    background-color: rgb(230, 229, 229);
+    border: 10px solid rgba(25, 25, 26, 0.897);;
     border-radius: 50%;
     position: absolute;
-    left: 68%;
-    top: 5%;
+    left: 80%;
+    top: 7%;
+    text-align: center;
+    line-height: 27px;
+    font-family: 'Anonymous Pro';    
+}
+
+.timeline-outerblock-left > h3{
+    padding: 0 7.5%;
+    font-family: 'Anonymous Pro'; 
+
+}
+
+.timeline-outerblock-left > p{
+    padding: 0 10%;
+    width: 65%;
+    font-family: 'Anonymous Pro'; 
 }
 
 .timeline-outerblock-right{
-    background-color:chartreuse;
-    width: 30%;
-    height: 92.5%;
+    background-color:rgb(109, 109, 109);
+    width: 40vw;
+    height: 85%;
     border-radius: 70px;
-    margin-left: 45%;
+    margin-left: 42%;
     position: relative;
     opacity: 0;
     transition: all 1s;
 }
 
+.timeline-outerblock-right > h3{
+    padding: 0 0 0 25%;
+    font-family: 'Anonymous Pro'; 
+}
+
+.timeline-outerblock-right > p{
+    padding: 0 0 0 30%;
+    width: 65%;
+    font-family: 'Anonymous Pro'; 
+}
+
 .timeline-innerblock-right{
-    height: 90%;
-    width: 30%;
-    background-color: black;
+    height: 70%;
+    width: 15%;
+    background-color: rgb(230, 229, 229);
+    border: 10px solid rgba(25, 25, 26, 0.897);;
     border-radius: 50%;
     position: absolute;
-    left: 2%;
-    top: 5%;
+    left: 1.5%;
+    top: 7%;
+    text-align: center;
+    line-height: 27px;
+    font-family: 'Anonymous Pro';
 }
 
 .fade-left{
