@@ -6,7 +6,7 @@ import Skill from "./Skill";
 function SkillsSection() {
     const [data, setData] = useState([])
     const [playOnce, setplayOnce] = useState(true)
-    const [id, setId] = useState("all")
+    const [id, setId] = useState("tecnical")
     
     useEffect(() => {
         if(playOnce) {
@@ -15,11 +15,11 @@ function SkillsSection() {
         } 
         
         const elems = document.getElementsByClassName("skills-selectioner")
-        for (var i = 0; i<3; i++) {
+        for (var i = 0; i<2; i++) {
             elems[i].style.backgroundColor = ''
         }
         document.getElementById(id).style.backgroundColor = 'rgba(128, 128, 128, 1)'
-        id === "all" ? setData(skills) : setData(() => skills.filter(e => e.type === id))
+        setData(() => skills.filter(e => e.type === id))
 
     },[playOnce, id, data]);
 
@@ -29,9 +29,8 @@ function SkillsSection() {
                 <div className="skills-title-selection-container">
                     <div className="skills-title">Skills</div>
                     <div className="skills-selection-container">
-                        <div className="skills-selectioner" id="tecnical" onClick={() => setId("tecnical")}>Tech</div>
-                        <div className="skills-selectioner" id="soft" onClick={() => setId("soft")}>Soft</div>
-                        <div className="skills-selectioner" id="all" onClick={() => setId("all")}>All</div>
+                        <div className="skills-selectioner" id="tecnical" onClick={() => setId("tecnical")}>tecnical</div>
+                        <div className="skills-selectioner" id="soft" onClick={() => setId("soft")}>soft</div>
                     </div>
                 </div>
             </div>
