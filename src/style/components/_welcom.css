@@ -33,20 +33,33 @@
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 .presentation-container > h2{
-    width: 45%;
-    margin-left: auto;
-    padding-top: 30px;
+    margin-left: 60%;
+    position: relative;
+    top: 30px;
+    padding: 3px 0;
     font-family: 'Anonymous Pro', monospace; 
+    border-right: 2px solid rgba(255,255,255,.75);
     font-size: xx-large;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 1s steps(7) 1s 1 normal both, blinkTextCursor 500ms steps(24) infinite normal;
 }
 
 .presentation-container > p{
     width: 55%;
     margin-left: auto;
-    padding-top: 10px;
+    padding-top: 30px;
     font-family: 'Anonymous Pro', monospace; 
 }
 
+@keyframes typewriter{
+    from{width: 0;}
+    to{width:23%;}
+}
+@keyframes blinkTextCursor{
+    from{border-right-color: rgba(0, 0, 0, 0.75);}
+    to{border-right-color: transparent;}
+}
 
 
 .socialmedia_component{
