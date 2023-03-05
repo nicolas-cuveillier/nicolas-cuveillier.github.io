@@ -8,7 +8,7 @@
 }
 
 .pict_component{
-    padding-top: 10%;
+    padding-top: 6%;
     width: 100%;
     height: 85%;
 
@@ -28,6 +28,26 @@
 		0px 0px 26px 10px rgba(20,20,20,0.6),
 		0px 0px 29px 10px rgba(20,20,20,0.6);
 }
+
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.presentation-container > h2{
+    width: 45%;
+    margin-left: auto;
+    padding-top: 30px;
+    font-family: 'Anonymous Pro', monospace; 
+    font-size: xx-large;
+}
+
+.presentation-container > p{
+    width: 55%;
+    margin-left: auto;
+    padding-top: 10px;
+    font-family: 'Anonymous Pro', monospace; 
+}
+
+
 
 .socialmedia_component{
     width: 100%;

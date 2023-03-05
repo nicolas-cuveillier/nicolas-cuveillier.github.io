@@ -9,8 +9,9 @@ function WelcomPage(){
           
             <div className="pict_component">
                 <div className="presentation-container">
-                    <h2>Hello Hello</h2>
-                    <p>kjsbdvbsknkn dbfs fsdvbis sfbvs dfsdbv sdsbd f sd</p>
+                    <h2>Hello !</h2>
+                    <p>I'm Nicolas, a computer science student and here is a bit of my life.</p>
+                    <p>I'm Nicolas, a computer science student and here is a bit of my life.</p>
                 </div>
                 <div className="socialmedia_component">
                     <SocialMedia/>

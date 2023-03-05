@@ -1,93 +1,54 @@
 .ag-format-container {
-    width: 1160px;
-    margin: 0 auto;
-    position: relative;
+    background-color:blue;
 }
 
-.ag-timeline_title-box {
-    padding: 40px 0;
-    text-align: center;
-}
-
-.ag-timeline_tagline {
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 30px;
-    position: relative;
-    color: rgba(255,255,255,.5);
-    z-index: 10;
-}
-
-.ag-timeline_tagline:after {
-    content: '';
-    display: block;
-    width: 12%;
-    height: 6px;
-    border-radius: 6px;
-    background: rgb(255,127,80);
-    position: absolute;
-    bottom: -1px;
-    left: 44%;
-}
-
-.ag-timeline_title {
-    font-size: 70px;
-}
-
-.ag-timeline_item_right {
-    margin-bottom: 40px;
-    height: 175px;
-    position: relative;
+.timeline-rowblock{
+    background-color: brown;
+    height: 130px;
     display: flex;
+    flex-direction: row;
 }
 
-.ag-timeline_item_left {
-    height: 175px;
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 40px;
-}
-
-.ag-timeline {
-    display: inline-block;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-
-    position: relative;
-}
-.ag-timeline_line {
-    width: 3px;
-    background-color: #ffffff;
-
-    position: absolute;
-    top: -50px;
-    left: 50%;
-    bottom: -57px;
-
-    overflow: hidden;
-}
-
-.ag-timeline_line-progress {
-    width: 100%;
-    height: 40%;
-    background-color: rgb(255,127,80);
-}
-
-
-.ag-timeline-item_box {
-    font-family: 'Titillium Web';
-    font-weight: 600;
-    border-radius: 15px;
-    background-color: #ffffff;
+.timeline-outerblock-left{
+    background-color: aquamarine;
     width: 30%;
-    margin-left: 7%;
-    margin-right: 7%;
-    height: 100%;
-    padding: 10px;
+    height: 92.5%;
+    border-radius: 70px;
+    margin-left: 25%;
     position: relative;
     opacity: 0;
-    transition: 1s all ease;
+    transition: all 1s;
+}
+
+.timeline-innerblock-left{
+    height: 90%;
+    width: 30%;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 68%;
+    top: 5%;
+}
+
+.timeline-outerblock-right{
+    background-color:chartreuse;
+    width: 30%;
+    height: 92.5%;
+    border-radius: 70px;
+    margin-left: 45%;
+    position: relative;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.timeline-innerblock-right{
+    height: 90%;
+    width: 30%;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 2%;
+    top: 5%;
 }
 
 .fade-left{
@@ -115,103 +76,3 @@
       transform: translateX(0);
     }
   }
-
-.ag-timeline-item_box > h3{
-    margin: 20px 20px 5px 20px;
-}
-
-.ag-timeline-item_box > h4{
-    margin: 0px 20px;
-}
-
-.ag-timeline-item_box > p{
-    width: 55%;
-    height: 30%;
-    padding: 0px 20px;
-    font-family: 'ESL Legend', sans-serif;
-    font-size: 18px;
-    font-weight: 150;
-}
-
-.ag-timeline-item-box_pict {
-    width: 100px;
-    height:40px;
-    position: absolute;
-    top: 40%;
-    right: 30px;
-    background-size:contain;
-    background-repeat: no-repeat;
-}
-
-#pict_epfl{
-    background-image: url("../image/Logo_EPFL.svg");
-}
-#pict_tecnico{
-    background-image: url("../image/IST_logo.png");
-}
-#pict_epfl_ethz{
-    background-image: url("../image/ethz_logo.svg");
-}
-
-.ag-timeline-card_box {
-    position: absolute;
-    left: 47.75%;
-    z-index: 1;
-}
-
-.ag-timeline-card_point {
-    height: 45px;
-    width: 50px;
-    border: 3px solid rgba(0, 0, 0, 0.444);
-    background-color: rgb(255, 255, 255);
-
-    text-align: center;
-    line-height: 45px;
-    font-size: 14px;
-    font-weight: 600;
-    border-radius: 50%;
-}
-
-#js-ag-active {
-    background-color:rgb(255,127,80);
-}
-
-
-
-
-@media only screen and (max-width: 979px) {
-       .ag-timeline-card_point {
-        height: 40px;
-        line-height: 40px;
-        width: 40px;
-    }
-
-}
-
-@media only screen and (max-width: 767px) {
-    .ag-format-container {
-    width: 96%;
-    }
-
-}
-
-@media only screen and (max-width: 639px) {
-    .ag-timeline_title {
-    font-size: 60px;
-    }
-}
-
-
-@media (min-width: 768px) and (max-width: 979px) {
-    .ag-format-container {
-    width: 750px;
-    }
-
-}
-
-@media (min-width: 980px) and (max-width: 1161px) {
-    .ag-format-container {
-    width: 960px;
-    }
-
-}
