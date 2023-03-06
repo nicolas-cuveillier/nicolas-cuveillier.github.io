@@ -1,5 +1,6 @@
 import React from "react";
 import SocialMedia from "./SocialMedia";
+import UseAnimations from 'react-useanimations';
 
 
 function WelcomPage(){
@@ -16,6 +17,7 @@ function WelcomPage(){
                         I'm currently studying abroad in Portugal for the last year of my bachelor and I am looking for 
                         an internship either in Cybersecurity or Data Science.
                     </p>
+                    <UseAnimations className="download-cv-icon" animationKey="download" style={{width:"30px"}}></UseAnimations>     
                 </div>
                 <div className="socialmedia_component">
                     <SocialMedia/>

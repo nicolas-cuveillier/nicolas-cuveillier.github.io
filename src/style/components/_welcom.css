@@ -70,6 +70,12 @@
     to{border-right-color: transparent;}
 }
 
+.download-cv-icon{
+    color: rgb(25,25,26);
+    position: relative;
+    left: 50%;
+    padding-top: 10px;
+}
 
 .socialmedia_component{
     width: 100%;
