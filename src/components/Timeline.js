@@ -28,7 +28,7 @@ function Timeline() {
             <div className="timeline-rowblock">
                 <div className="timeline-outerblock-left">
                     <h3>École Polytechnique Fédérale de Lausanne</h3>
-                    <p>I'm Nicolas, a computer science student and here is a bit of my life.</p>
+                    <p>Bachelor in Communication Systems in the school of Computer and Communication with a GPA of 4.91/6.</p>
                     <div className="timeline-innerblock-left">2020<br></br>-<br></br>2023</div>
                 </div>
             </div>
@@ -36,13 +36,13 @@ function Timeline() {
                 <div className="timeline-outerblock-right">
                     <div className="timeline-innerblock-right">2022<br></br>-<br></br>2023</div>
                     <h3>Instituto Superior Tecnico</h3>
-                    <p>I'm Nicolas, a computer science student and here is a bit of my life.</p>
+                    <p>I spent a year aborad in Lisbon for the last year of my bachelor. </p>
                 </div>
             </div>
             <div className="timeline-rowblock">
                 <div className="timeline-outerblock-left">
                     <h3>Gap year</h3>
-                    <p>I'm Nicolas, a computer science student and here is a bit of my life.</p>
+                    <p>I would like to take a year in order to develop professional skills during internships.</p>
                     <div className="timeline-innerblock-left">2023<br></br>-<br></br>2024</div>
                 </div>
             </div>
@@ -50,7 +50,7 @@ function Timeline() {
                 <div className="timeline-outerblock-right">
                     <div className="timeline-innerblock-right">2024<br></br>-<br></br>2026</div>
                     <h3>École Polytechnique Fédérale de Zurich</h3>
-                    <p>I'm Nicolas, a computer science student and here is a bit of my life.</p>
+                    <p>Things are not fixed but the EPFL's Cyber Security master linked with ETHZ is totally interesting me.</p>
                 </div>
             </div>
         </div>
