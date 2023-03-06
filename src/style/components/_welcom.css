@@ -46,10 +46,19 @@
 }
 
 .presentation-container > p{
-    width: 55%;
-    margin-left: auto;
-    padding-top: 30px;
+    width: 50%;
+    text-align: justify;
     font-family: 'Anonymous Pro', monospace; 
+}
+
+#p1{
+    padding-top: 30px;
+    margin-left: 45%;
+}
+
+#p2{
+    padding-top: 20px;
+    margin-left: 42.5%;
 }
 
 @keyframes typewriter{
