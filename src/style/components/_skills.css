@@ -97,8 +97,9 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     transition: 0.3s;
     width: 85%;
-    padding-bottom: 40px;
-    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-bottom: 0px;
 }
 
 .skills-list-elem{
