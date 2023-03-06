@@ -8,7 +8,8 @@ function Skill(props) {
             <div className="flip-card-inner">
                 <div className="flip-card-front">
                     <div className="skill-img-container">
-                        <div className="skill-img" style={{backgroundImage: `url(${skill.image})`}}></div>
+                        {skill.image.length !== 0 && <div className="skill-img" style={{backgroundImage: `url(${skill.image})`}}></div>}
+                        {skill.image.length === 0 && <div className="skill-title">{skill.title}</div>}
                     </div>
                     <div className="skill-bar-container">
                         <div className="progress-light-grey" id={skill.title}>

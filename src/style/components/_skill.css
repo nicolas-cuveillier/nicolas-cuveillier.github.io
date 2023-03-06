@@ -10,6 +10,7 @@
     transform-style: preserve-3d;
     background-color: rgb(230, 229, 229);
     border-radius: 15px;
+    box-shadow: 5px 5px 7.5px rgb(66, 66, 66);
 }  
 
 .flip-card-front, .flip-card-back {
@@ -41,6 +42,12 @@
     height: 55px;
 }
 
+.skill-title{
+    font-family: 'Anonymous Pro';
+    font-size: larger;
+    width: 80%;
+}
+
 .progress-light-grey{
     width: 50%;
     height: 5px;
@@ -60,7 +67,7 @@
 }
   
 .flip-card-back {
-    background-color: dodgerblue;
+    background-color: rgb(230, 229, 229);
     border-radius: 15px;
     color: rgb(61, 61, 61);
     transform: rotateY(180deg);
@@ -68,7 +75,7 @@
 }
 
 .flip-card-back > p{
-    margin: 18% 20%;
+    margin: 10% 12%;
     font-family: 'Anonymous Pro';
 }
 

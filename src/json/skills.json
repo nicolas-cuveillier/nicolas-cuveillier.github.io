@@ -3,7 +3,7 @@
     "image" : "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
     "type"  : "tecnical",
     "percent": "90%",
-    "description":"lorem ipsum lorem ipsum lorem ipsum"
+    "description":"I've learnt Java during two 6-months courses through different projects such as the implementation of the game \"Ticket To Ride\"."
 },
 
 {
@@ -11,7 +11,7 @@
     "image" : "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg",
     "type"  : "tecnical",
     "percent": "65%",
-    "description":"lorem ipsum lorem ipsum lorem ipsum"
+    "description":"I've learnt Python through a machine learning course, mainly using numpy's framework."
 }
 ,
 
@@ -20,7 +20,7 @@
     "image" : "https://upload.wikimedia.org/wikipedia/commons/3/39/Scala-full-color.svg",
     "type"  : "tecnical",
     "percent": "50%",
-    "description":"lorem ipsum lorem ipsum lorem ipsum"
+    "description":"A course of functional programming is given at EPFL and Scala was the programming language used during the labs."
 },
 
 {
@@ -28,7 +28,7 @@
     "image" : "https://upload.wikimedia.org/wikipedia/commons/3/35/The_C_Programming_Language_logo.svg",
     "type"  : "tecnical",
     "percent": "70%",
-    "description":"lorem ipsum lorem ipsum lorem ipsum"
+    "description":"I've learnt the concept of system-oriented programming through the C language during a course at EPFL."
 }
 ,
 
@@ -37,7 +37,7 @@
     "image" : "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
     "type"  : "tecnical",
     "percent": "60%",
-    "description":"lorem ipsum lorem ipsum lorem ipsum"
+    "description":"I've learnt HTML in order to realise this portfolio."
 },
 
 {
@@ -45,7 +45,16 @@
     "image" : "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
     "type"  : "tecnical",
     "percent": "55%",
-    "description":"lorem ipsum lorem ipsum lorem ipsum"
+    "description":"I've learnt CSS in order to realise this portfolio."
+}
+
+,
+{
+    "title" : "git",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg",
+    "type"  : "tecnical",
+    "percent": "75%",
+    "description":"I have used VirtualBox in many occasions, mostly for courses but also for some personal uses."
 }
 
 ,
@@ -54,7 +63,7 @@
     "image" : "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
     "type"  : "tecnical",
     "percent": "65%",
-    "description":"lorem ipsum lorem ipsum lorem ipsum"
+    "description":"I've learnt Javascript and more specially the react.js framework in order to realise this portfolio."
 }
 ,
 
@@ -63,23 +72,16 @@
     "image" : "https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png",
     "type"  : "tecnical",
     "percent": "90%",
-    "description":"lorem ipsum lorem ipsum lorem ipsum"
+    "description":"I have used VirtualBox in many occasions, mostly for courses but also for some personal uses."
 }
-,
-{
-    "title" : "git",
-    "image" : "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg",
-    "type"  : "tecnical",
-    "percent": "75%",
-    "description":"lorem ipsum lorem ipsum lorem ipsum"
-}
+
 ,
 {
     "title" : "SQL",
     "image" : "https://upload.wikimedia.org/wikipedia/commons/6/6f/Sql_database_shortcut_icon.png",
     "type"  : "tecnical",
     "percent": "75%",
-    "description":"lorem ipsum lorem ipsum lorem ipsum"
+    "description":"I've learnt SQL during a course at Instituto Superior Tecnico through both theorical and practical aspects"
 }
 ,
 {
@@ -87,7 +89,7 @@
     "image" : "https://upload.wikimedia.org/wikipedia/commons/2/29/GitHub_logo_2013.svg",
     "type"  : "tecnical",
     "percent": "75%",
-    "description":"lorem ipsum lorem ipsum lorem ipsum"
+    "description":"I have used VirtualBox in many occasions, mostly for courses but also for some personal uses."
 }
 ,
 {
@@ -95,7 +97,7 @@
     "image" : "https://upload.wikimedia.org/wikipedia/commons/4/4b/Kali_Linux_2.0_wordmark.svg",
     "type"  : "tecnical",
     "percent": "65%",
-    "description":"lorem ipsum lorem ipsum lorem ipsum"
+    "description":"I have used Linux in many occasions, mostly for courses but also for some personal uses."
 }
 ,
 
@@ -108,19 +110,46 @@
 }
 ,
 {
-    "title" : "confident_with_teamwork",
-    "image" : "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg",
+    "title" : "confident with teamwork",
+    "image" : "",
     "type"  : "soft",
     "percent": "95%",
-    "description":"lorem ipsum lorem ipsum lorem ipsum"
+    "description":"I was able to work on my communication skills through the many course-related projects."
 }
 ,
 
 {
     "title" : "independent",
-    "image" : "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg",
+    "image" : "",
     "type"  : "soft",
-    "percent": "85%",
-    "description":"lorem ipsum lorem ipsum lorem ipsum"
+    "percent": "95%",
+    "description":"I have lived in 3 differents country : France (home), Switzerland and Portugal."
+}
+
+,
+
+{
+    "title" : "voluntary",
+    "image" : "",
+    "type"  : "soft",
+    "percent": "100%",
+    "description":"I'm ready to put big efforts to be part of a project and I would really like to help people or companies with whatever I can give to them."
+},
+
+{
+    "title" : "meticulous",
+    "image" : "",
+    "type"  : "soft",
+    "percent": "80%",
+    "description":"I like when everything is precisely done as it should be, either in my academic or personnal life."
+}
+,
+
+{
+    "title" : "persistent",
+    "image" : "",
+    "type"  : "soft",
+    "percent": "75%",
+    "description":"I try to be as persistent as I can and I keep challenging myself through sports such as trail running."
 }
 ]
