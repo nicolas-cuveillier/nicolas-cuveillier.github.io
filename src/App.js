@@ -3,14 +3,11 @@ import SkillsSection from "./components/SkillsSection";
 import EducationSection from "./components/EducationSection";
 import ProjectSection from "./components/ProjectSection";
 import Navigation from "./components/Navigation";
-import React from "react";
+import React, {useCallback} from "react";
 import Particles from "react-tsparticles";
-import { useCallback, useState, useEffect } from "react";
 
 
 function App() {
-
-
   const particlesInit = useCallback(async (engine) => {
     //console.log(engine);
     // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets

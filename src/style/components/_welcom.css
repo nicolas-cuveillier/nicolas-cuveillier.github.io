@@ -95,6 +95,12 @@
         width: 55px;
     }
 
+    .download-cv-icon{
+        position: relative;
+        top: -180px;
+        left: 230px;
+    }
+
     #p1{
         position: relative;
         top:140px;
