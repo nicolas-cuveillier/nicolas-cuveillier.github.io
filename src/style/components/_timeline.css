@@ -114,3 +114,25 @@
       transform: translateX(0);
     }
   }
+
+@media screen and (max-width: 415px) {
+    .timeline-innerblock-left ,.timeline-innerblock-right{
+        opacity: 0;
+    }
+    .timeline-outerblock-left > p, .timeline-outerblock-right > p{
+        opacity: 0;
+    }
+    .timeline-outerblock-left > h3{
+        position: relative;
+        top: 9px;
+        left: 20px;
+        font-size:medium;
+    } 
+
+    .timeline-outerblock-right > h3{
+        position: relative;
+        top: 11px;
+        left: -5px;
+        font-size:medium;
+    }
+}
