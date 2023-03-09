@@ -10,7 +10,6 @@
     background-size: contain
 }
 
-
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
 
 .nav {
@@ -78,3 +77,9 @@
   .nav a:hover {
     color: #ffffff;
   }
+
+@media screen and (max-width: 415px) {
+  .nav{
+    opacity: 0;
+  }
+}

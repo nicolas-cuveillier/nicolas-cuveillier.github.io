@@ -5,7 +5,7 @@ import ProjectSection from "./components/ProjectSection";
 import Navigation from "./components/Navigation";
 import React from "react";
 import Particles from "react-tsparticles";
-import { useCallback } from "react";
+import useCallback from "react";
 
 
 function App() {
