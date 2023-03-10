@@ -15,7 +15,7 @@
 }
 
 .presentation-container{
-    width: 38%;
+    width: 38vw;
     height: 58%;
     margin: auto;
     background-color: rgb(255, 255, 255);
@@ -46,19 +46,19 @@
 }
 
 .presentation-container > p{
-    width: 50%;
+    width: 45%;
     text-align: justify;
     font-family: 'Anonymous Pro', monospace; 
 }
 
 #p1{
     padding-top: 30px;
-    margin-left: 45%;
+    margin-left: 48%;
 }
 
 #p2{
     padding-top: 20px;
-    margin-left: 42.5%;
+    margin-left: 45%;
 }
 
 @keyframes typewriter{
