@@ -4,4 +4,26 @@
     width: 100%;
     height: 770px;
 }
+
+.projects_page > h1 {
+    padding: 80px;
+    margin: 0px;
+    background-color: aqua;
+}
+
+.project-content-container{
+    display: flex;
+}
+
+.project-content-video-container{
+    width: 50%;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.project-content-text-container{
+    width: 50%;
+    height: 100px;
+    background-color: aquamarine;
+}
 /****************************************/
