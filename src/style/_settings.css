@@ -3,9 +3,6 @@
     src: url(./image/HelveticaNowDisplay-Bold.ttf);
 }
 
-* {
-    font-family: "Helvetica Now Display";
-}
 
 body{
     margin: 0px;
