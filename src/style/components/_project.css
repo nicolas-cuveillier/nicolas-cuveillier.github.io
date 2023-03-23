@@ -25,8 +25,10 @@
     top: 45%;
     left:8%;
     z-index: 2;
-    background-color: white;
+    background-color: rgb(230, 229, 229);
     opacity: 0;
+    box-shadow: -5px 5px 20px rgb(109, 109, 109);
+
 }
 
 .fade-left{
@@ -51,7 +53,6 @@
     width: 35%;
     height: 55%;
     border: 2px solid black;
-    z-index: 1;
 }
 
 .project-picture-1{
@@ -68,10 +69,10 @@
 
 .project-picture-2{
     position: absolute;
-    top: 15%;
+    top: 12.5%;
     left: 62.5%;
     width: 30%;
-    height: 50%;
+    height: 55%;
     background-image: url("../image/project-picture1.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -102,10 +103,18 @@
 
 .project-content-video-container{
     position: absolute;
-    top:8%;
+    top:15%;
+    width: 42.5%;
     left: 10%;
     z-index: 2;
     opacity: 0;
+    box-shadow: -5px 5px 25px rgb(76, 76, 76);
+}
+
+.project-video{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .project-content-text-container_mid{
@@ -164,11 +173,9 @@
 }
 
 .website-footer{
-    background-color: aqua;
-    height: 100px;
+    background-color: rgb(76, 76, 76);
+    font-family: 'Anonymous Pro'; 
 }
-
-
 
 .path{
     stroke-dasharray: 1000;

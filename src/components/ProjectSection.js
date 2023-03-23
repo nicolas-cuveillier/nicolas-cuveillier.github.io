@@ -1,4 +1,5 @@
 import React from "react";
+import SocialMedia from "../components/SocialMedia";
 
 function ProjectSection() {
 
@@ -61,8 +62,8 @@ function ProjectSection() {
                 <div className="project-content-video-container">
                     <div className="project-content-video-icon">
                         <iframe className="project-video"
-                            width="590" 
-                            height="420" 
+                            width="100%" 
+                            height="100%" 
                             src="https://www.youtube.com/embed/37fvJs_g-iE" 
                             title="YouTube video player" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" 
@@ -87,7 +88,7 @@ function ProjectSection() {
             </div>
 
             <div className="website-footer">
-
+                <SocialMedia></SocialMedia>
             </div>
         </section>
     )
