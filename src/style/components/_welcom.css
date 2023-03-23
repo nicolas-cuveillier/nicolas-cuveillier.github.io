@@ -73,7 +73,7 @@
 .download-cv-icon{
     color: rgb(25,25,26);
     position: absolute;
-    top:78%;
+    top:72%;
     left: 52%;
     padding-top: 10px;
 }
@@ -82,7 +82,7 @@
     height: 35px;
     width: 35px;
     position: absolute;
-    top:79%;
+    top:73%;
     left: 59%;
     background-image: url("../image/mail.png");
     background-repeat: no-repeat;
