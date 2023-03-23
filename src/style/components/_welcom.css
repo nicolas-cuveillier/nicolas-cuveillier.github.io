@@ -57,8 +57,8 @@
 }
 
 #p2{
-    padding-top: 20px;
-    margin-left: 45%;
+    padding-top: 10px;
+    margin-left: 42.5%;
 }
 
 @keyframes typewriter{
@@ -72,9 +72,21 @@
 
 .download-cv-icon{
     color: rgb(25,25,26);
-    position: relative;
-    left: 50%;
+    position: absolute;
+    top:78%;
+    left: 52%;
     padding-top: 10px;
+}
+
+.mail-icon{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top:79%;
+    left: 59%;
+    background-image: url("../image/mail.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .socialmedia_component{

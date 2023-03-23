@@ -17,7 +17,8 @@ function WelcomPage(){
                         I'm currently studying abroad in Portugal for the last year of my bachelor and I am looking for 
                         an internship either in Cybersecurity or Data Science.
                     </p>
-                    <UseAnimations className="download-cv-icon" animationKey="download" style={{width:"30px"}}></UseAnimations>     
+                    <UseAnimations className="download-cv-icon" animationKey="download" style={{width:"28px"}}></UseAnimations>  
+                    <div className="mail-icon"></div>   
                 </div>
                 <div className="socialmedia_component">
                     <SocialMedia/>
