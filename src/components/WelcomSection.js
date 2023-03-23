@@ -18,7 +18,7 @@ function WelcomPage(){
                         an internship either in Cybersecurity or Data Science.
                     </p>
                     <UseAnimations className="download-cv-icon" animationKey="download" style={{width:"28px"}}></UseAnimations>  
-                    <div className="mail-icon"></div>   
+                    <a className="mail-icon" href="mailto:nicolas.cuveillier@epfl.ch">    </a>   
                 </div>
                 <div className="socialmedia_component">
                     <SocialMedia/>
