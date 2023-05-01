@@ -1,5 +1,4 @@
 import React from "react";
-import SocialMedia from "../components/SocialMedia";
 
 function ProjectSection() {
 
