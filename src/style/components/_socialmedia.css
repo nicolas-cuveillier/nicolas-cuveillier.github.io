@@ -5,10 +5,19 @@
 }
 
 .social-media-item{
-  padding: 40px;
+  padding: 30px 40px;
 }
 
 .item-link{
   height: 100px;
   width: 10px;
+}
+
+.mail-icon{
+  height: 45px;
+  width: 40px;
+  margin: 0px 40px;
+  background-image: url("../image/icon-email.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

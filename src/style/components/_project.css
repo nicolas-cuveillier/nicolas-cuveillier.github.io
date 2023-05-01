@@ -2,6 +2,7 @@
 .projects_page{
     background-color: rgb(230, 229, 229);
     width: 100%;
+    box-shadow: 0px 5px 5px 5px rgb(230, 229, 229);
 }
 
 
@@ -136,12 +137,12 @@
 }
 
 #h3-con{
-    top: 10%;
+    top: 2%;
     left: 18%;
 }
 
 #h3-sec{
-    top: 28%;
+    top: 21%;
     left: 18%;
 }
 
@@ -156,12 +157,22 @@
 }
 
 #p-con{
-    top: 17.5%;
+    top: 10%;
     left: 20%;
 }
 
 #p-sec{
-    top: 35%;
+    top: 29%;
+    left: 20%;
+}
+
+#h3-conc{
+    top: 60.5%;
+    left: 18%;
+}
+
+#p-conc{
+    top: 68%;
     left: 20%;
 }
 
@@ -172,9 +183,17 @@
     padding: 40px 0px;
 }
 
+/*background-color: rgb(76, 76, 76);*/
 .website-footer{
-    background-color: rgb(76, 76, 76);
     font-family: 'Anonymous Pro'; 
+    
+}
+
+.footer-text{
+    margin: 0%;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
 }
 
 .path{

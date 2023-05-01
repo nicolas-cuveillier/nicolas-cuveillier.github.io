@@ -84,11 +84,13 @@ function ProjectSection() {
                         to connect to the website using the mobile application. For that, we have created a protocol describe in the following
                         picture.
                     </p>
+                    <h3 id="h3-conc">Conclusion</h3>
+                    <p id="p-conc">
+                    While having the foundations of a bank’s secured infrastructure, enhancements can be added. When performing any operation 
+                    (buy stocks, bank transfer...), the user’s identity could be verified once again to be sure it is the right one. Moreover, 
+                    we could use a biometric authentication.
+                    </p>
                 </div>
-            </div>
-
-            <div className="website-footer">
-                <SocialMedia></SocialMedia>
             </div>
         </section>
     )

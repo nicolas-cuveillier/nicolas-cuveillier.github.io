@@ -5,6 +5,7 @@ import ProjectSection from "./components/ProjectSection";
 import Navigation from "./components/Navigation";
 import React, {useCallback} from "react";
 import Particles from "react-tsparticles";
+import SocialMedia from "./components/SocialMedia";
 
 
 function App() {
@@ -107,6 +108,10 @@ function App() {
       <EducationSection/>
       <SkillsSection/>
       <ProjectSection/>
+      <div className="website-footer">
+        <SocialMedia></SocialMedia>
+        <p className="footer-text">All rights reserved.</p>
+      </div>
     </div>
   );
 }

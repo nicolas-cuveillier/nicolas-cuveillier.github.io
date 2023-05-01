@@ -69,13 +69,13 @@
 .flip-card-back {
     background-color: rgb(230, 229, 229);
     border-radius: 15px;
-    color: rgb(61, 61, 61);
+    color: rgb(39, 39, 39);
     transform: rotateY(180deg);
     text-align: center;
 }
 
 .flip-card-back > p{
-    margin: 10% 12%;
+    margin: 8% 11%;
     font-family: 'Anonymous Pro';
 }
 

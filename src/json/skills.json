@@ -54,7 +54,7 @@
     "image" : "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg",
     "type"  : "tecnical",
     "percent": "75%",
-    "description":"I have used VirtualBox in many occasions, mostly for courses but also for some personal uses."
+    "description":"I have used Git in many occasions, mostly for courses but also for some personal uses."
 }
 
 ,
@@ -89,7 +89,7 @@
     "image" : "https://upload.wikimedia.org/wikipedia/commons/2/29/GitHub_logo_2013.svg",
     "type"  : "tecnical",
     "percent": "75%",
-    "description":"I have used VirtualBox in many occasions, mostly for courses but also for some personal uses."
+    "description":"I have used Github in many occasions, mostly for courses but also for some personal uses."
 }
 ,
 {
@@ -105,8 +105,8 @@
     "title" : "bash",
     "image" : "https://upload.wikimedia.org/wikipedia/commons/8/82/Gnu-bash-logo.svg",
     "type"  : "tecnical",
-    "percent": "40%",
-    "description":"lorem ipsum lorem ipsum lorem ipsum"
+    "percent": "30%",
+    "description": "I have learn a bit of bash scripting through my bachelor and for some personal interests."
 }
 ,
 {
