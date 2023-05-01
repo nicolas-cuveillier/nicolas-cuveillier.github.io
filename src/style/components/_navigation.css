@@ -79,6 +79,10 @@
   }
 
 @media screen and (max-width: 415px) {
+  .navigation{
+    padding: 20px 30px;
+  }
+
   .nav{
     opacity: 0;
   }
